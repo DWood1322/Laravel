@@ -39,6 +39,16 @@ Route::get('/profile', function () {
     return view('profile ');
 });
 
-Route::get('/siswa', function () {
-    return view('smkBPI.siswarpl' , ["siswa01" => "Tomingse"]);
+// Route::get('/siswa', function () {
+//     return view('smkBPI.siswarpl' , [
+//         "siswa01" => "Tomingse",
+//         "siswa02" => "Rudi permana",
+//         "siswa03" => "Sari Citra Lestari",
+//         "siswa04" => "Rina Kumala Sari",
+//         "siswa05" => "James Situmorang",
+
+// ]);
+// });
+Route::get('/siswarpl', function () {
+    return view('smkBPI.siswarpl ')->with('siswa06','risa Lestari');
 });
