@@ -38,3 +38,7 @@ Route::get('/stok_barang/{jenis}/{merek}',function($jenis,$merk){
 Route::get('/profile', function () {
     return view('profile ');
 });
+
+Route::get('/siswa', function () {
+    return view('smkBPI.siswarpl' , ["siswa01" => "Tomingse"]);
+});
