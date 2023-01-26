@@ -50,5 +50,6 @@ Route::get('/profile', function () {
 // ]);
 // });
 Route::get('/siswarpl', function () {
-    return view('smkBPI.siswarpl ')->with('siswa06','risa Lestari');
+    $arrSiswa= ["Risa Lestari","Rudi Hermawan","Bambang Kusumo","Lisa Permata"];
+    return view('smkBPI.siswarpl ')->with('siswa',$arrSiswa);
 });
