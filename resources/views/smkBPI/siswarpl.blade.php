@@ -18,8 +18,11 @@
     </ol>
     <div>
         <img src="/img/Heejin.jpg" alt="">
-        <img src="/img/Eunha.jpg" alt="">
+        <img src="/img/Eunha.jpg" alt=""><br>
         <img src="/img/Karina.jpg" alt="">
+        <img src="/img/Kim.jpg" alt="">
+        
+
     </div>
     <div>
         copyright &copy; <?php echo date ("Y"); ?> Nama
