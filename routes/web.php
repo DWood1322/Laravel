@@ -50,6 +50,12 @@ Route::get('/profile', function () {
 // ]);
 // });
 Route::get('/siswarpl', function () {
-    $arrSiswa= ["Risa Lestari","Rudi Hermawan","Bambang Kusumo","Lisa Permata"];
+    $arrSiswa= ["Heejin","Eunha","Karina","Hyunjin"];
     return view('smkBPI.siswarpl ')->with('siswa',$arrSiswa);
+});
+
+Route ::get('/nilaisiswa',function(){
+    $nama ="Heejin";
+    $nilai =80;
+    return view('smkBPI.nilaisiswa',compact('nama','nilai'));
 });
